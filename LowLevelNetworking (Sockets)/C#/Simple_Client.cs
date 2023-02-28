@@ -35,14 +35,8 @@ class Simple_Client {
                 //client.Shutdown(SocketShutdown.Both);
                 //client.Close();
             }
-
-
-
         }
         catch (Exception e) { Console.WriteLine(e.ToString()); }
-
-
-        while (true) ;
     }
 
 }
