@@ -37,7 +37,6 @@ class Simple_Server {
                 sw.Flush();
                 Console.WriteLine("Server Send!");
 
-
                 //client.Shutdown(SocketShutdown.Both);
                 //client.Close();
             }
@@ -45,7 +44,5 @@ class Simple_Server {
             //server.Close();
         }
         catch (Exception e) { Console.WriteLine(e.ToString()); }
-
-        while (true) ;
     }
 }
